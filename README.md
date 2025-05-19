@@ -10,10 +10,10 @@ In the repository, you will find the file wallet_addresses.csv. This file contai
 2. A snapshot of Cosmic Cyphers holders, taken using the SentX Tool
 3. A snapshot of Sirio suppliers, retrieved through our internal APIs
 
-If you are a holder of NG or CC, or if you deposited funds on Sirio, your address should be listed in the wallet_addresses.csv file. You can verify this in two ways:
+If you are a holder of NG or CC, or if you deposited funds on Sirio, your address should be listed in the `wallet_addresses.csv` file. You can verify this in two ways:
 
-1. Search for your ID within this repository. After clicking on the wallet_addresses.csv file, follow the steps shown in the screenshots below
-2. Download the wallet_addresses.csv file, open it on your device, and search for your ID using your preferred CSV file viewer
+1. Search for your ID within this repository. After clicking on the `wallet_addresses.csv` file, follow the steps shown in the screenshots below
+2. Download the `wallet_addresses.csv` file, open it on your device, and search for your ID using your preferred CSV file viewer
 
 If your wallet should be included but is missing, we invite you to open a ticket on our Discord:
 https://discord.com/channels/1192554206775754842/1202345688239710258/1340005780472205312
@@ -26,5 +26,13 @@ To receive your Sirio Recovery DAO NFT, you simply need to make sure your addres
 2. Once the final number of NFTs is confirmed, we will proceed to mint and distribute them to all eligible users. Stay tuned to find out which Token ID is associated with your address.
 
 ## Repo & Code Architecture
+The repository consists of the following files:
+
+1. Two snapshots obtained via SentX for holders of Cosmic Cyphers and Nebula Genesis, respectively: `0.0.7089383.csv` and `0.0.7829347.csv`
+2. The `SUPPLIERS_LIST.json` file, which contains the snapshot of all suppliers of the Sirio protocol
+3. The Python script `wallets_list.py`, which extracts all addresses from the two CSVs and the JSON file, and aggregates them into a single final file: `wallet_addresses.csv`
 
 ## FAQs
+If you have any questions or comments regarding the methodology used, feel free to open a ticket in our Discord server:
+https://discord.com/channels/1192554206775754842/1202345688239710258/1340005780472205312
+or send us an email at connect@sirio.finance
