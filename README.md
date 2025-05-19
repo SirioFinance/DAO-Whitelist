@@ -1,7 +1,7 @@
 # DAO-Whitelist
 
 ## Introduction
-This repository contains the source code used to define the final list of holders of Nebula Genesis, Cosmic Cyphers, and users who supplied on Sirio Finance before the exploit.
+This repository contains the source code used to define the final list of holders of Nebula Genesis, Cosmic Cyphers, and users who supplied on Sirio Finance before the exploit, following the announcement released the previous week about the details of Sirio's Recovery Plan: https://x.com/SirioFinance/status/1922605497586237585
 
 ## Check Elegibility
 In the repository, you will find the file wallet_addresses.csv. This file contains all the wallets we identified from:
